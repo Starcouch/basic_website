@@ -1,0 +1,56 @@
+body {
+    background-image: url("One_Piece.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    width: 60%;
+    height: 95vh;
+    background-color: rgb(130, 205, 254,0.7);
+    margin: auto;
+    position: absolute;
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 20px;
+    /* text-align: center; */
+    /* max-height: 70vh;
+    min-height: 50vh; */
+}
+
+.content h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+.ratings div {
+    background-color: rgba(4, 4, 4, 0.9);
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.ratings {
+    display: block;
+    text-align: center;
+}
+
+.big-icon {
+    font-size: 50px;
+}
+
